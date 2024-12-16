@@ -1,0 +1,76 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+    background-image: url('VINEWOOD_2.png');
+    background-size: contain; /* Ajusta la imagen para que se vea completa, pero no exceda el tamaño de la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetirá la imagen */
+    transition: background 0.5s ease-in-out;
+    color: #333;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #007BFF, #FF0000);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
+
+
+.content-container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    margin-top: 80px; 
+    border-radius: 8px; 
+    max-width: 900px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+
+body {
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover; 
+   
+}
